@@ -12,5 +12,8 @@ class TestBinarySearch < MiniTest::Test
 		assert_equal([0..10],@search.list())
 	end
 
+  def test_binary_search()
+    assert_equal(3, @search.binary_search(3))
+  end
 	
 end
