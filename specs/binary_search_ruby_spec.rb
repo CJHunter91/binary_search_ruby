@@ -15,7 +15,11 @@ class TestBinarySearch < MiniTest::Test
 	end
 
   def test_binary_search()
-    assert_equal(3, @search.binary_search(3))
+    assert_equal(9, @search.binary_search(9))
+  end
+
+  def test_quarte_search()
+    assert_equal(9, @search.quarte_search(9))
   end
 
   def test_linear_search()
